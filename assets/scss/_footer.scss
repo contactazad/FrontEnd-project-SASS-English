@@ -1,0 +1,53 @@
+footer{
+    background: linear-gradient(to right, #414141,#000000);
+    .footer-object{
+        background-color: $footer;
+
+    }
+
+    .icons{
+        color: $secondary;
+        font-size: 1.5rem;
+        &:hover{
+            color: $white;
+            
+        }
+    }
+
+    .hr{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .quick-access a{
+        text-decoration: none;
+        color: $white;
+
+    }
+
+    .quick-access a:hover{
+        color: $primary;
+}
+
+    .services a{
+        text-decoration: none;
+        color: $white;
+
+    }
+
+    .findMe a{
+        text-decoration: none;
+        color: $white;
+
+    }
+
+    .copyright{
+        color: #6f6f6f;
+    }
+
+
+}
+
+

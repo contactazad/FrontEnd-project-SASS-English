@@ -1,0 +1,29 @@
+.div-search{
+    background-color: $back;
+    width: 100%;
+    margin: 0 auto;
+
+
+
+    label{
+        color: $primary;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    input{
+        width: 70%;
+    }
+    li{
+        list-style: none;
+        margin: 2rem auto;
+        margin-bottom: 2rem;
+        border: solid 1px $secondary;
+        padding: 2rem 0;
+        width: 50%;
+    }
+    a{
+        text-decoration: none;
+        color: #000000;
+        display: block;
+    }
+}

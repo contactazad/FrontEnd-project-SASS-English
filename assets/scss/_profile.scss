@@ -1,0 +1,86 @@
+.profile{
+    transition: all 1s;
+
+    .html-line{
+
+        width: 90%;
+        height: 4px;
+        background-color: $primary;
+    }
+
+    .html{
+        justify-content: space-between;
+    }
+    
+    .css{
+        justify-content: space-between;
+    }
+    .css-line{
+        width: 80%;
+        height: 4px;
+        background-color: $primary;
+    }
+    .photoshop{
+        justify-content: space-between;
+    }
+    .photo-line{
+        width: 90%;
+        height: 4px;
+        background-color: $primary;
+    }
+    .premiere{
+        justify-content: space-between;
+    }
+    .premiere-line{
+        width: 80%;
+        height: 4px;
+        background-color: $primary;
+    }
+    
+    .icdl{
+        justify-content: space-between;
+    }
+    .icdl-line{
+        width: 90%;
+        height: 4px;
+        background-color: $primary;
+    }
+    
+    .js{
+        justify-content: space-between;
+    }
+    .js-line{
+        width: 50%;
+        height: 4px;
+        background-color: $primary;
+    }
+    
+    .profile-1{
+        width: 60%;
+        border-radius: 7px;
+        overflow: hidden;
+        transition: all 1s;
+    
+        &:hover{
+            transform: scale(1.1);
+            transition: all 1s;
+        }
+    }
+
+    .carousel{
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        width: 70%;
+
+        
+        .title-carousel{
+            background-color: rgba($primary,0.7);
+            width: 100%;
+            height: 3rem;
+            line-height: 50%;
+        }
+    }
+
+}
+

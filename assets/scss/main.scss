@@ -1,0 +1,27 @@
+// custom variable
+$primary: #b33536;
+$secondary: #fe5152;
+$back : #eae9ef;
+$footer : #414141;
+
+body{
+    // overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+
+// Import Bootstrap 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+    
+// Import App   
+@import './components/mixins'; 
+@import './components/buttons'; 
+@import './fonts';    
+@import './navbar';
+@import './information'; 
+@import './searchbox';
+@import './portfolio';
+@import './profile';
+@import './contact'; 
+@import './footer';            

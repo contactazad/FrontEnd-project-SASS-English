@@ -1,0 +1,52 @@
+.portfolio{
+    background-color: $primary;
+}
+.box{
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+
+    img{
+        transition: all 1s;
+    }
+
+
+    .info{
+        background-color: rgba($primary , 0.75);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    &:hover{
+        .info{
+            opacity: 1;
+            transition: all 1s;
+    
+        }
+        img{
+           transform: scale(1.5);
+           transition: all 1s; 
+        }
+
+    } 
+    video {
+        width: 100%;
+        height: auto;
+      }
+
+    
+}
+
+.portfolio{
+    .div-websites{
+        display: flex;
+    }
+    .div-photoshop{
+        display: flex;
+    }
+    .div-videos{
+        display: flex;
+    }
+
+    
+}

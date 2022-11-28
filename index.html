@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FatemehAzad</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <header >
+        
+        <div class="container d-flex flex-column justify-content-center" >
+            <div class="row intro text-center py-3 align-items-center d-flex flex-column h-100  justify-content-center position-absolute start-50  top-50 translate-middle">
+                <h1 class="text-white my-4" >Fatemeh Azad</h1>
+                <h4 class="fw-bold text-secondary">Website Designer</h4>
+                <p class="text-white">In order to start, I am a website designer, Video editor, graphist and a lover of my carrier!</p>
+                <button class="btn btn-primary mt-3">Lets Go!</button>
+                
+            </div>>
+        </div>
+
+        <div class="div-nav" x-data="{ navShow : false}" @scroll.window = "navShow = window.scrollY > 590 ? true : false">
+            <nav  class="navbar navbar-expand-lg navbar-light pe-4" :class="{'header-scrolled' : navShow}">
+                <div class="container">
+                  <a class="navbar-brand mb-0 mt-0" href="#">My Website</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mt-0 mb-0 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#mySkills">My Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#aboutMe">About Me</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#contactMe">Contact Me</a>
+                      </li>
+                    </ul>
+    
+                    <a href="#" class="text-decoration-none fw-bold text-primary why">Why This Website?</a>
+                    
+                  </div>
+                </div>
+              </nav>
+
+
+        </div>
+        
+
+        
+    </header>
+
+    <!--Information-->
+    <section class="information align-items-center text-center">
+        <div class="container ">
+            <div class="row my-4 py-4 px-5">
+                <h2 class="fw-bold">My works</h2>
+            </div>
+
+        <div class="container text-center align-items-center info-cards">
+            <div class="row text-center g-3 align-items-center gy-3 justify-content-center">
+                <div class="col-lg-4 col-12 text-center align-items-center justify-content-center">
+                    <div class="card text-center" style="width: 18rem;">
+                        <i class="bi bi-pencil-square text-primary pt-4 icon "></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Website design</h5>
+                          <p class="card-text py-3 lh-lg">In the digital world, your website may be more important than your storefront. With a stunning design, show your brand in the best way and differentiate between yourself and your competitors.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center" style="width: 18rem;">
+                        <i class="bi bi-file-earmark-image text-primary pt-4 icon "></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Photo editing and design</h5>
+                          <p class="card-text py-3 lh-lg">A professional edit will help you draw attention to your photos, and you can multiply your sales with a stunning banner on your website.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center" style="width: 18rem;">
+                        <i class="bi bi-file-earmark-play text-primary pt-4 icon "></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Video editing</h5>
+                          <p class="card-text py-3 lh-lg">In today's world, the durability of images is important. With an exciting and different teaser, leave your competitors behind and stay in the minds of customers forever!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+  
+        </div>
+    </section>
+
+    <!--SearchBox-->
+    <section class="div-search text-center align-items-center mt-5">
+        <div class="row py-4 my-4 text-center align-items-center">
+
+            <div id="searchresult text-center">
+                <label for="search">What kind of services are you looking for?</label>
+                <br>
+                <input type="search" name="search" id="search" class="my-3" placeholder="Type something...">
+            </div>
+        
+            <div id="result">
+                
+            </div>
+
+        </div>     
+
+    </section>
+    
+    
+
+    <!--Portfolio-->
+    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-8.74,91.30 C179.17,152.47 329.85,-31.06 503.67,95.23 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #b33536;"></path></svg></div>
+    <section class="portfolio" >
+
+        <div class="container">
+            <div class="row text-center" data-aos="fade-up" data-aos-delay="200" >
+                <h2 class="fw-bold mt-2 text-white">My Portfolio</h2>
+            </div>
+
+            <div class="row mt-4" data-aos="fade-up" data-aos-delay="300" >
+                <div class="col-12 text-center">
+                    
+                    <button id="btnweb" class="btn btn-rounded-primary border-primary ">Website Design</button>
+                    <button id="btnphotoshop" class="btn btn-rounded-primary border-primary me-2">Editing and designing photo</button>
+                    <button id="btnvideos" class="btn btn-rounded-primary border-primary me-2">Editing video and teaser</button>
+                    <button id="btnall" class="btn btn-rounded-primary border-primary me-2">All</button>
+                </div>
+            </div>
+
+            <div class="row mt-5 gy-4 div-all align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="600" >
+ 
+                <div class="row div-websites text-center align-items-center justify-content-center">
+                    <div class="col-md-6 col-lg-4 text-center align-items-center my-2">
+                        <div class="box shadow text-center align-items-center">
+                            <img class="img-fluid" src="./assets/images/portfolio/website/img-1.jpg" alt="" title="">
+                            <div class="info position-absolute top-50 start-50 translate-middle text-center text-white align-items-center d-flex flex-column h-100 w-100 justify-content-center">
+                                <h4>sample of website design</h4>
+                                <p>sample of website design 1</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 text-center align-items-center my-2">
+                        <div class="box shadow text-center align-items-center">
+                            <img class="img-fluid" src="./assets/images/portfolio/website/img-1.jpg" alt="" title="">
+                            <div class="info position-absolute top-50 start-50 translate-middle text-center text-white align-items-center d-flex flex-column h-100 w-100 justify-content-center">
+                                <h4>sample of website design</h4>
+                                <p>sample of website design 2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 text-center align-items-center my-2">
+                        <div class="box shadow text-center align-items-center">
+                            <img class="img-fluid" src="./assets/images/portfolio/website/img-1.jpg" alt="" title="">
+                            <div class="info position-absolute top-50 start-50 translate-middle text-center text-white align-items-center d-flex flex-column h-100 w-100 justify-content-center">
+                                <h4>sample of website design</h4>
+                                <p>sample of website design 3</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+
+
+                <div class="row div-photoshop py-2">
+
+                    <div class="col-md-6 col-lg-4 py-2">
+                        <div class="box shadow">
+                            <img class="img-fluid" src="./assets/images/portfolio/photoshop/img-1.jpg" alt="" title="">
+                            <div class="info position-absolute top-50 start-50 translate-middle text-center text-white align-items-center d-flex flex-column h-100 w-100 justify-content-center">
+                                <h4>sample of editing photo</h4>
+                                <p>sample of editing photo 1</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-6 col-lg-4 py-2">
+                        <div class="box shadow">
+                            <img class="img-fluid" src="./assets/images/portfolio/photoshop/img-2.jpg" alt="" title="">
+                            <div class="info position-absolute top-50 start-50 translate-middle text-center text-white align-items-center d-flex flex-column h-100 w-100 justify-content-center">
+                                <h4>sample of editing photo</h4>
+                                <p>sample of editing photo 2</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-4 py-2">
+                        <div class="box shadow">
+                            <img class="img-fluid" src="./assets/images/portfolio/photoshop/img-3.jpg" alt="" title="">
+                            <div class="info position-absolute top-50 start-50 translate-middle text-center text-white align-items-center d-flex flex-column h-100 w-100 justify-content-center">
+                                <h4>sample of editing photo</h4>
+                                <p>sample of editing photo 3</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row div-videos">
+
+                    <div class="col-md-6 col-lg-4 my-2">
+                        <div class="box w-100 h-auto">
+                            <div class="embed-responsive embed-responsive-16by9 w-100 h-auto">
+                                <video controls="">
+                                    <source src="assets/images/portfolio/video/vid-1.mp4" type="video/mp4">
+                                </video>                              
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-md-6 col-lg-4 my-2">
+                        <div class="box w-100 h-auto">
+                            <div class="embed-responsive embed-responsive-16by9 w-100 h-auto">
+                                <video controls="">
+                                    <source src="assets/images/portfolio/video/vid-2.mp4" type="video/mp4">
+                                </video>                              
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-md-6 col-lg-4 pb-4 my-2">
+                        <div class="box w-100 h-auto">
+                            <div class="embed-responsive embed-responsive-16by9 w-100 h-auto">
+                                <video controls="">
+                                    <source src="assets/images/portfolio/video/vid-3.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            
+        </div>
+
+
+
+    </section>
+    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C140.79,186.03 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #b33536;"></path></svg></div>
+
+
+    <!--Profile-->
+    <section class="profile">
+        <div class="container my-2">
+            <div class="row">
+                <div class="col-12 col-lg-6 my-2">
+                    <div id="aboutMe">
+                        <br><br><br>
+                    </div>
+                    <h2 class="my-3 mb-5 fw-bold text-primary text-center">My Profile</h2>
+                    <div class="text-center my-3">
+                        <img alt="" title="" src="assets/images/profile/01.jpg" class="img-fluid profile-1 text-center">
+
+                    </div>
+                    
+                    <div class="me-4 pt-4">
+                        <p><strong>Name & Last name: </strong>Fatemeh Masoumi Azad</p>
+                        <p><strong>Year of birth: </strong>1999</p>
+                        <p><strong>Phone Number: </strong>+989392854899</p>
+                        <p><strong>E-mail: </strong>azadfatemeh.contact@gmail.com</p>
+                        <p><strong>Adress: </strong>Mashhad - Iran</p>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 mt-2">
+                    <div id="mySkills">
+                        <br><br><br>
+                    </div>
+                    <h2 class="my-3 mb-4 fw-bold text-primary text-center" >Some of my skills</h2>
+                    <div>
+                        <div class="pb-4 me-4">
+                            <div class="d-flex flex-row html">
+                                <p>HTML</p>
+                                <p class="ms-5">90%</p>
+                            </div >  
+                            <div class="html-line"></div>                       
+                        </div>
+
+                        <div class="py-4 me-4">
+                            <div class="d-flex flex-row css">
+                                <p>CSS</p>
+                                <p class="ms-5">80%</p>
+                            </div> 
+                            <div class="css-line"></div>                       
+                        </div>
+
+                        <div class="py-4 me-4">
+                            <div class="d-flex flex-row js">
+                                <p>Java Script</p>
+                                <p class="ms-5">50%</p>
+                            </div> 
+                            <div class="js-line"></div>                       
+                        </div>
+
+
+                        <div class="py-4 me-4">
+                            <div class="d-flex flex-row photoshop">
+                                <p>Adobe Photoshop</p>
+                                <p class="ms-5">90%</p>
+                            </div> 
+                            <div class="photo-line"></div>                       
+                        </div>
+
+                        <div class="py-4 me-4">
+                            <div class="d-flex flex-row premiere">
+                                <p>Adobe premiere</p>
+                                <p class="ms-5">80%</p>
+                            </div> 
+                            <div class="premiere-line"></div>                       
+                        </div>
+
+                        <div class="py-4 me-4">
+                            <div class="d-flex flex-row icdl">
+                                <p>ICDL</p>
+                                <p class="ms-5">90%</p>
+                            </div> 
+                            <div class="icdl-line"></div>                       
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container my-4 py-2">
+            <div class="row my-4 text-center">
+                <h2 class="fw-bold my-2 pb-2 text-primary text-center" data-aos="fade-down" data-aos-delay="300" >Some of My certificates</h2>
+                <div class="col-12">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-aos="zoom-in-up" data-aos-delay="500" >
+                        
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="assets/images/profile/courses/html.jpg" class="d-block w-100" alt="...">
+                          </div>
+
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="assets/images/profile/courses/css.jpg" class="d-block w-100" alt="...">
+                            </div>
+
+                          <div class="carousel-item">
+                            <img src="assets/images/profile/courses/responsive.jpg" class="d-block w-100" alt="...">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img src="assets/images/profile/courses/js.png" class="d-block w-100" alt="...">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img src="assets/images/profile/courses/jquery.jpg" class="d-block w-100" alt="...">
+                          </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section class="contact-back my-5 text-center align-items-center" id="contactMe">
+        <div class="container contact">
+            <div class="row">
+                <h2 class="fw-bold text-white py-5">Contact Me</h2>
+                <form>
+
+
+                    <input id="customer-name" type="text" placeholder="name">
+
+                    <input id="contact-email" type="email" placeholder="E-mail">
+                    
+                    <input id="contact-subject" class="mt-4" type="text" placeholder="subject">
+
+                    <textarea cols="27" rows="10" class="my-4" placeholder="your message"></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-light mb-5">send</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="container gy-4 py-3 pb-1">
+            <div class="row text-white text-center py-3">
+                <h5>Contact via Social Medias</h5>
+                <div class="social-icons my-4">
+
+                    <a href="#"><i class="bi bi-instagram icons"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp icons px-3"></i></a>
+                    <a href="#"><i class="bi bi-linkedin icons"></i></a>
+
+                </div>
+                <hr class="my-2 hr">
+                
+            </div>
+
+            <div class="row text-white py-2 mb-3 text-center align-items-center">
+                <div class="col-4 col-sm-12">
+                    <h3 class="text-secondary">FatemehAzad</h3>
+                    <p>Website Designer and Editor</p>
+                </div>
+
+                <div class="col-8 col-sm-12">
+                    <div class="row d-flex ">
+
+                        <div class="col-sm-6 col-lg-4 quick-access text-white d-flex flex-column py-4">
+                            <h5 class=" fw-bold">quick access</h5>
+                            <a href="#" class="text-white py-3">Home</a>
+                            <a href="#" class="text-white">Portfoli</a>
+                            <a href="#contactMe" class="text-white pt-3">Contact Me</a>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4 text-white services d-flex flex-column py-4">
+                            <h5 class=" fw-bold">Services</h5>
+                            <a href="#" class="text-white py-3">Website design</a>
+                            <a href="#" class="text-white">Photo editing and design</a>
+                            <a href="#" class="text-white pt-3">Video editing</a>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4 d-flex flex-column findMe py-4">
+                            <h5 class=" fw-bold">How to find me?</h5>
+                            <a href="#" class="text-white py-3">Adress: Mashhad - Iran</a>
+                            <a href="#" class="text-white pt-2">Phone Number : +989392854899</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="my-3 hr text-white">
+
+            <div class="row text-center copyright">
+                <p>CopyRight <i class="bi bi-c-circle"></i> 2022 , FatemehAzad </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+     
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/jq.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="./assets/js/script-jquery.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.3.4/dist/cdn.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+    
+
+</body>
+
+</html>

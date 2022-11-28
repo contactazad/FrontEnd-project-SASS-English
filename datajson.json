@@ -1,0 +1,52 @@
+[
+    { 
+        "name":"web editing",
+        "img" : "01.jpg",
+        "reknown":"web editing 1",
+        "bio" : "Click for more details"
+        
+    },
+    { 
+        "name":"image editing 2",
+        "img" : "02.jpg",
+        "reknown":"image editing",
+        "bio" : "Click for more details"
+        
+    },
+    { 
+        "name":"image editing 2",
+        "img" : "03.jpg",
+        "reknown":"image editing",
+        "bio" : "Click for more details"
+        
+    },
+    { 
+        "name":"image editing 3",
+        "img" : "04.jpg",
+        "reknown":"image editing",
+        "bio" : "Click for more details"
+        
+    },
+    { 
+        "name":"video editing 1",
+        "img" : "05.jpg",
+        "reknown":"video editing",
+        "bio" : "Click for more details"
+        
+    },
+    { 
+        "name":"video editing 2",
+        "img" : "06.jpg",
+        "reknown":"video editing",
+        "bio" : "Click for more details"
+        
+    },
+    { 
+        "name":"video editing 3",
+        "img" : "07.jpg",
+        "reknown":"video editing",
+        "bio" : "Click for more details"
+        
+    }
+    
+]

@@ -1,0 +1,37 @@
+
+
+.contact{
+    background-color: $primary;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+ 
+    form{
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+ 
+    }
+
+    #customer-name{
+        width: 40%;
+    }
+
+    #contact-email{
+        width: 40%;
+    }
+
+    #contact-subject{
+        width: 80%;
+    
+    }
+    .btn-light{
+        width: 7rem;
+    }
+        
+
+}
